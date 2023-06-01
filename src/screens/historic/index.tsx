@@ -11,7 +11,7 @@ import { Animated, Alert } from "react-native";
 import { useRef, useState, useEffect } from "react";
 import AnimatedLine from "../../components/AnimatedLine";
 import CardProfitOrSpend from "../../components/CardProfitOrSpend";
-import { TransactionModel } from "../../Models/transactionModel";
+import { TransactionModel } from "../../models/transactionModel";
 import { FireStoreService } from "../../services/firestoreservice";
 
 export default function Historic() {
