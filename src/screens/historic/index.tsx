@@ -46,7 +46,7 @@ export default function Historic() {
   useEffect(() => {
     const timer = setInterval(() => {
       receiveTransactions();
-    }, 2000);
+    }, 500);
     return () => clearInterval(timer);
   }, []);
 

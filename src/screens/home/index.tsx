@@ -59,7 +59,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setInterval(() => {
       receiveTransactions();
-    }, 2000);
+    }, 500);
     return () => clearInterval(timer);
   }, []);
 
