@@ -160,9 +160,9 @@ export default function AddSpendOrProfit() {
               background="#E61413"
               style={{
                 borderWidth: 2,
-                borderColor: category === "food" ? "#345AF8" : "transparent",
+                borderColor: category === "Food" ? "#345AF8" : "transparent",
               }}
-              onPress={() => setCategory("food")}
+              onPress={() => setCategory("Food")}
             >
               <CategoryImage source={require("../../assets/food.png")} />
             </Category>
@@ -172,9 +172,9 @@ export default function AddSpendOrProfit() {
               style={{
                 borderWidth: 2,
                 borderColor:
-                  category === "shopping" ? "#345AF8" : "transparent",
+                  category === "Shopping" ? "#345AF8" : "transparent",
               }}
-              onPress={() => setCategory("shopping")}
+              onPress={() => setCategory("Shopping")}
             >
               <CategoryImage source={require("../../assets/shopping.png")} />
             </Category>
