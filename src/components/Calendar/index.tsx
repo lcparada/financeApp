@@ -34,7 +34,7 @@ export default function Calendar(props: CalendarProps) {
           .set({
             year: new Date().getFullYear(),
             month: props.selectedMonth,
-            date: 1,
+            date: new Date().getDate(),
           })
           .toISOString()
       );
